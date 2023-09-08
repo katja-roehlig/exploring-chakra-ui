@@ -1,5 +1,6 @@
 import { EditIcon, ViewIcon } from "@chakra-ui/icons";
 import {
+  Avatar,
   Box,
   Button,
   Card,
@@ -43,9 +44,7 @@ export default function Dashboard() {
           >
             <CardHeader>
               <Flex gap={5}>
-                <Box w="50px" h="50px">
-                  <Text>AV</Text>
-                </Box>
+                <Avatar src={task.img} bg="purple.100" />
                 <Box>
                   <Heading as="h3" size="sm">
                     {task.title}
