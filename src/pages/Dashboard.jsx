@@ -39,12 +39,12 @@ export default function Dashboard() {
           <Card
             key={task.id}
             borderTop="8px"
-            borderColor="purple.400"
+            borderColor="brand.400"
             bg="white"
           >
             <CardHeader>
               <Flex gap={5}>
-                <Avatar src={task.img} bg="purple.100" />
+                <Avatar src={task.img} bg="brand.100" />
                 <Box>
                   <Heading as="h3" size="sm">
                     {task.title}

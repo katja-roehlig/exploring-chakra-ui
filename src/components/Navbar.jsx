@@ -33,7 +33,7 @@ export default function Navbar() {
       <HStack spacing="20px">
         {/* Fasst die 3 nachfolgenden Elemente zusammen und stylt sie */}
 
-        <Avatar name="mario" src="/img/mario.png" bg="purple.400">
+        <Avatar name="mario" src="/img/mario.png" bg="brand.400">
           <AvatarBadge width="1.3em" bg="teal.500">
             <Text fontSize="xs" color="white">
               3
@@ -41,7 +41,7 @@ export default function Navbar() {
           </AvatarBadge>
         </Avatar>
         <Text>mario@netninja.dev</Text>
-        <Button colorScheme="purple" onClick={showToast}>
+        <Button colorScheme="brand" onClick={showToast}>
           Logout
         </Button>
       </HStack>
